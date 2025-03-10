@@ -1,24 +1,126 @@
-<html>
-    <head>
-        <style>
-            body{
-                background-color: pink;
-                color: blue;
-                text-align: center;
-                display: grid;
-                place-items: center;
-            }
-        </style>
-    </head>
-    <body>
-      <a href = "index.html">Home</a>
-     <h1>Unit 2 - Quality of Education </h1> 
-         <h2>How quality education improves society</h2>
-     <img src="media/cs-academy-recording.gif">
-        <h3>My logo was an atom to portray the core subject of science, taught in many schools.
-          I called it by first defining my logo with a few parameters; def logo(x, y, color1, color2). </h3>
-        <h3>Below is a snippet of code for my logo </h3>
-     <img src="media/logo.png">
-    
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit 2 - Quality of Education</title>
+    <style>
+        /* General reset for body margin */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f8f8f8;
+            font-family: Arial, sans-serif;
+            color: #333;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+
+        /* Navigation Menu */
+        nav {
+            background-color: #0044cc;
+            width: 100%;
+            padding: 10px 0;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 10;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content Styling */
+        .container {
+            margin-top: 70px; /* Space for fixed navbar */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #0044cc;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        footer a {
+            color: #0044cc;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="unit2.html">Unit 2</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Unit 2 - Quality of Education</h1>
+        <h2>How quality education improves society</h2>
+
+        <img src="media/cs-academy-recording.gif" alt="Education Quality GIF">
+
+        <h3>
+            My logo was an atom to portray the core subject of science, taught in many schools. 
+            I called it by first defining my logo with a few parameters; <code>def logo(x, y, color1, color2)</code>.
+        </h3>
+        
+        <h3>Below is a snippet of code for my logo:</h3>
+        <img src="media/logo.png" alt="Logo">
+
+        <!-- Optional Footer -->
+        <footer>
+            <p>© 2025 Quality Education Project. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
 </html>
